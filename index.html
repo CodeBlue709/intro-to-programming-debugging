@@ -8,7 +8,7 @@
     <title>Number Guesser</title>
   </head>
   <body>
-    <main>
+    <main style="text-align: center;">
       <h1>Guessing Game</h1>
       <p>
         I'm thinking of a number from 1 to 99! Can you guess it in 5 tries or
@@ -22,9 +22,13 @@
         <p class="message" id="number-of-guesses"></p>
         <p class="message" id="too-high">You guessed too high. Try again.</p>
         <p class="message" id="too-low">You guessed too low. Try again.</p>
+        
+        <p class="message" id="invalid-num-high"><b>THE NUMBER ENTERED MUST BE LESS THAN 99</b></p>
+        <p class="message" id="invalid-num-low"><b>THE NUMBER ENTERED MUST BE MORE THAN 1</b></p>
+        <p class="message" id="invalid-num"><b>ENTER A NUMBER</b></p>
+
         <p class="message" id="max-guesses">
-          You reached the max number of guesses
-        </p>
+          You reached the max number of guesses, Would you like to play again?
         <p class="message" id="correct">
           Congratulations, You guessed correctly! <br />
           Would you like to play again?
